@@ -28,3 +28,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+Assets/PopMovieTexture_Demos/*
+Assets/PopMovieTexture/*
