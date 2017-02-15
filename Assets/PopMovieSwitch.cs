@@ -93,10 +93,10 @@ public class PopMovieSwitch : MonoBehaviour {
 		if (Playing) {
 			MovieTime += Time.deltaTime * MovieTimeScalar;
 
-            /*
+            
             if (Movies[PlayingMovieIndex] != null)
                 Movies[PlayingMovieIndex].SetTime(MovieTime);
-                */
+                
             
             UpdateTextures();
 
@@ -127,12 +127,12 @@ public class PopMovieSwitch : MonoBehaviour {
         Movies[PlayingMovieIndex].GetAudioBuffer(data, Channels, StartTime, AudioStream);
 	}*/
 
-    public void SwitchToSphere(int i)
+    public void SwitchToSphere(int sphereIndex)
     {
-        Playing = false;
-        PlayingMovieIndex = i;
+        //Playing = false;
+        PlayingMovieIndex = sphereIndex;
         Movies[PlayingMovieIndex].SetTime(MovieTime);
-        Playing = true;
+        //Playing = true;
         
         /*
         if (Movies[PlayingMovieIndex] == null)

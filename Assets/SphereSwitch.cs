@@ -14,15 +14,15 @@ public class SphereSwitch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Keypad0))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             popMovieSwitch.SwitchToSphere(0);
         }
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             popMovieSwitch.SwitchToSphere(1);
         }
-        if (Input.GetKeyDown(KeyCode.Keypad2))
+        if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             popMovieSwitch.SwitchToSphere(2);
         }
