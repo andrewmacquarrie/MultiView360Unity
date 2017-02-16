@@ -19,9 +19,14 @@ Platform assembly: C:\Projects\MultiView360Unity\office_Data\Managed\UnityEngine
 Loading C:\Projects\MultiView360Unity\office_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Projects\MultiView360Unity\office_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Projects\MultiView360Unity\office_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.025 seconds
+- Completed reload, in  0.021 seconds
 Platform assembly: C:\Projects\MultiView360Unity\office_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Projects\MultiView360Unity\office_Data\Managed\System.dll (this message is harmless)
 desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.825372 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2658 -> priority: 1 
+  Thread -> id: 2b80 -> priority: 1 
